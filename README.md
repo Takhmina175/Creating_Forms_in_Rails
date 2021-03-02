@@ -13,6 +13,17 @@ In this project, we have created forms using HTML markup and Rails helper method
 - Run command 'rails server' to connect to the server.
 - To open the application in the browser, visit http://localhost:3000.
 
+## Project implementation steps
+- We build a new rails app called **re-former**.
+- Then, we have generated the `User` model for *username, email, and password*.
+- We used the routes method named **resources** to repace **get routes**. And we used the `:only`  method to specify two actions   `create` and `new`.
+- In the view folder, we created *new* and *edit* files in which the HTML markup and `form_with` helper method used to generate the signup form.
+- In the controller, we have defined four actions: *new, create, edit, and update*.
+- We used a **Strong Parameters** to filter params  
+- We used **partials** to avoid code duplication by copying common code to both edits and create files and past it into a single `_form.html.erb` file.
+- We used validation for checking input presence and password length. 
+
+
 
 ## Author
 
