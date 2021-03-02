@@ -2,7 +2,7 @@
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-In this project, we have created forms using HTML markup and helper methods. The project goal was to create a sign-up form in Ruby on Rails that allow a user to create and update an account. 
+In this project, we have created forms using HTML markup and Rails helper methods.The project goal was to create a sign-up form in Ruby on Rails that allows users to create and update an account.  
 
 ## Getting started
 
